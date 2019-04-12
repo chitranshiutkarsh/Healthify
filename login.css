@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(images/hospitalpng.png);
+
+  background-size: cover;
+
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+}
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -50%;
+  left: calc(50% -50px);
+}

@@ -1,0 +1,57 @@
+body {
+    background:url("medical.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+  }
+  .logout a{
+    text-decoration: none;
+    color: white;
+  }
+.Logout{
+  width:80px;
+  margin-top:8%;
+  margin-right: 10%;
+  text-align: center;
+  height: 30px;
+  background: black;
+  color: white;
+  float: right;
+  border-radius: 2px;
+  border: 2px white;
+  border-style: dashed;
+}
+.column {
+    float: left;
+    width: 10%;
+    padding: 2px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .box{
+	background: rgba(255,255,255,.5);
+	color: #fff;
+	width: 1350px;
+	height: 350px;
+	transform: translate(0%,10%);
+	box-sizing: border-box;
+    position: absolute;
+	color: black;
+}
+.column1 {
+    float: left;
+    width: 20%;
+    padding: 2px;
+  }
+
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

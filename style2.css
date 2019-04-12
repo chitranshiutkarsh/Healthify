@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(usr.jpg);
+	background-size: cover;
+}
+
+#box{
+	background: rgba(0,0,0,.5);
+	height: 700px;
+	color: #fff;
+	width: 600px;
+	
+	margin: 5% auto;
+	position: relative;
+}
+.userimg{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50%px);
+}
+
+.left-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 700px;
+}
+
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.left-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.left-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.left-box input[type="text"],
+.left-box input[type="Address"],
+.left-box input[type="Email"],
+.left-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+::placeholder{
+	color: rgba(255,255,255,.5);
+
+}
+.left-box input[type="Submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.right-box{
+position: absolute;
+top: 0;
+right: 0;
+box-sizing: border-box;
+padding: 40px;
+width: 300px;
+height: 700px;
+background: rgba(0,0,0,.6);
+background-size: cover;
+background-position: center;
+}
+
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,.5);
+
+}
+
+button.social
+{
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	border-spacing: 30px;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+.facebook{
+	background: #32508e;
+}
+
+.twitter{
+	background: #55acee;
+}
+
+.google{
+	background: #dd4b39;
+}

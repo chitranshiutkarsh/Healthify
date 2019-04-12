@@ -1,0 +1,35 @@
+body {
+    background:url(steth.jpg);
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+.h{
+    color:red;
+}
+.box{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	width: 320px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+    position: absolute;
+	padding: 70px 30px;
+}
+
+
+.userimg{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50%px);
+}

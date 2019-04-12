@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: cover;
+}
+.teamsection {
+  overflow: hidden;
+  text-align: center;
+  background: #34495e;
+  padding: 60px;
+}
+.teamsection h1{
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: white;
+  font-size: 40px;
+}
+.border {
+  display: black;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background: #3498db;
+  margin-bottom: 40px;
+}
+.ps {
+  margin-bottom: 40px;
+}
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.p1{
+  font-style: italic;
+}
+.ps a img
+{
+  width: 100%;
+  filter:   grayscale(100%);
+  transition: 0.4s;
+}
+.ps a:hover > img
+{
+filter: none;
+}
+.sect {
+  width: 600px;
+  font-style: italic;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.sect:target{
+  height: auto;
+}
+.name {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
